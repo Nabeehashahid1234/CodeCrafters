@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    background-color: #e99619;
+    padding: 25px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.nav .left span{
+    color: #2f0044;
+}
+
+.nav .left{
+    width: 55%;
+}
+
+.nav .left h1{
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.nav .right ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav .right{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+}
+
+.nav .right ul li{
+    color: #010207;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 75px;
+    padding: 5px;
+}
+.nav .right ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav .right ul li:hover{
+    cursor: pointer;
+    border: 1px solid #A367B1;
+    border-radius: 6px;
+    text-shadow: 10px 5px 20px #A367B1;
+    transform: scale(1.05);
+}
+
+.home{
+    color: white;
+    background-color: #2f0044;
+    height: 100vh;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home .left{
+    width: 50%;
+    margin-left: 40px;
+}
+
+.home .left h1{
+    margin-top: 6rem;
+    font-size: 4rem;
+}
+
+.home .left p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.home .right{
+    width: 50%;
+}
+
+.home .right{
+    padding-top: 90px;
+    margin-left: 90px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .right img{
+    width: 690px;
+    height: 400px;
+}
+
+.project-sec-1{
+    background-color: #28003a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 40px;
+    margin-top: 15px;
+    padding-bottom: 65px;
+}
+
+.project-sec-1 h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.project-sec-1 .container{
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-gap: 3rem;
+    padding-left: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-sec-1 .container .box1{
+    width: 200px;
+    height: 241px;
+    padding: 30px;
+}
+
+.project-sec-1 .container .box1 .img-1{
+    border-radius: 10px;
+    position: relative;
+    bottom: 29px;
+    right: 29px;
+}
+
+.project-sec-1 .container .box1 :hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+.text-1{
+    position: relative;
+    bottom: 25px;
+    right: 28px;
+    font-size: 25px;
+    color: #e99619;
+    text-decoration: none;
+}
+
+
+
+.project-sec-1 .container .box2{
+    height: 260px;
+    padding: 20px;
+}
+
+.project-sec-1 .container .box2 .img-2{
+    height: 115%;
+    width: 115%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 19px;
+    right: 18px; 
+}
+
+.project-sec-1 .container .box2 :hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.text-2{
+    position: relative;
+    bottom: 15px;
+    right: 17px;
+    font-size: 25px;
+    color: #e99619;
+    text-decoration: none;
+}
+
+.project-sec-1 .container .box3{
+    height: 255px;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.project-sec-1 .container .box3 .img-3{
+    height: 117%;
+    width: 118%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 19px;
+    right: 18px; 
+}
+
+.project-sec-1 .container .box3 :hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.text-3{
+    position: relative;
+    bottom: 15px;
+    right: 17px;
+    font-size: 25px;
+    color: #e99619;
+    text-decoration: none;
+}
+
+.project-sec-1 .container .box4{
+    height: 255px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.project-sec-1 .container .box4 .img-4{
+    height: 117%;
+    width: 118%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 19px;
+    right: 18px; 
+}
+
+.project-sec-1 .container .box4 :hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.text-4{
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+    font-size: 25px;
+    color: #e99619;
+    text-decoration: none;
+}
+
+.project-sec-1 .container .box5{
+    height: 255px; 
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 15px;
+} 
+
+.project-sec-1 .container .box5 .img-5{
+    height: 117%;
+    width: 118%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 19px;
+    right: 18px; 
+}
+
+.project-sec-1 .container .box5 :hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.text-5{
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+    font-size: 25px;
+    color: #e99619;
+    text-decoration: none;
+}
+
+
+/* Team */
+.container2{
+    margin-top: 15px;
+    padding-bottom: 45px;
+    background-color: #28003a;
+} 
+
+.container2 .team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+}
+
+.container2 h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 35px;
+    padding-bottom: 9px;
+    color: white;
+}
+
+/* block-1 */
+.container2 .team .block-1{
+    width: 350px;
+    height: 400px;
+    margin: 35px;
+}
+
+.block-1 .img-1 img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.title{
+    padding-top: 4px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e99619;
+    margin-left: 10px;
+}
+
+.block-1:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+/* block-2 */
+.team .block-2{
+    width: 350px;
+    height: 400px;
+    margin: 35px;
+    margin-left: 25px;
+}
+
+.block-2 .img-2 img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.block-2:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+/* block-3 */
+.team .block-3{
+    width: 350px;
+    height: 350px;
+    margin: 35px;
+    margin-left: 15px;
+}
+
+.block-3 .img-3 img{ 
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5%;
+} 
+
+.block-3:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+/* block-4 */
+.team .block-4{
+    width: 350px;
+    height: 400px;
+    margin: 25px;
+}
+
+.block-4 .img-4 img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.block-4:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+/* block-5 */
+.team .block-5{
+    width: 350px;
+    height: 400px; 
+    margin: 25px;
+}
+
+.block-5 .img-5 img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.block-5:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+/* footer */
+footer{
+    padding-top: 15px;
+    background-color: #e99619;
+    padding-bottom: 15px;
+    text-align: center;
+}
